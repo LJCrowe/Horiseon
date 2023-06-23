@@ -172,7 +172,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} 
 
 .search-engine-optimization img {
     max-height: 200px;
@@ -207,7 +207,8 @@ p {
     font-size: 36px;
 } */
 
-.footer {
+/*changed title from .footer to footer to match HTML*/
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
