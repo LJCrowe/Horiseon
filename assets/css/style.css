@@ -8,25 +8,23 @@ body {
     background-color: #d9dcd6;
 }
 
-/*changed to header only rather than separate headers by removing "."*/
-header {
+.header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-header h1 {
+.header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo {
+.header h1 .seo {
     color: #d9dcd6;
 }
 
-/*changed from header div to header nav to correspond to HTML*/
-header nav {
+.header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -34,12 +32,11 @@ header nav {
     font-size: 20px;
 }
 
-/*changed from header div ul to header nav ul to correspond to HTML*/
-header nav ul {
+.header div ul {
     list-style-type: none;
 }
-/*changed from header div ul li to header nav ul li to correspond to HTML*/
-header nav ul li {
+
+.header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -136,8 +133,26 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-/*all identical - changed to article for all 3 and deleted unnecessary*/
-article {
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
