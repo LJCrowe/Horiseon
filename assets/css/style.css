@@ -89,7 +89,12 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.article {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* combined/hid the following selectors d/t exact same to make more concise */
+/* .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -101,7 +106,7 @@ p {
 
 .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: #ffffff; */
 }
 
 .benefit-lead h3 {
